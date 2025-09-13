@@ -1,0 +1,20 @@
+[package]
+name = "imoguizmo"
+description = "Interactive orientation gizmo"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords = ["imgui", "gizmo", "gui"]
+categories = ["gui", "graphics"]
+readme = "README.md"
+
+[dependencies]
+imgui.workspace = true
+mint.workspace = true
+glam = { workspace = true, features = ["mint"]}
+
+[dev-dependencies]
+imgui-sdl3.workspace = true
+sdl3.workspace = true

@@ -1,0 +1,15 @@
+[package]
+name = "imstyle"
+description = "Manage ImGui style with TOML files"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+imgui.workspace = true
+serde = { workspace = true, features = ["derive"] }
+toml.workspace = true
+
+[dev-dependencies]
+imgui-sdl3.workspace = true
+sdl3.workspace = true
