@@ -13,7 +13,6 @@
 
 [![Crates.io](https://img.shields.io/crates/v/imgui-sdl3.svg)](https://crates.io/crates/imgui-sdl3)
 [![API Docs](https://docs.rs/imgui-sdl3/badge.svg)](https://docs.rs/imgui-sdl3)
-[![dependency status](https://deps.rs/repo/github/florianvazelle/imextras/status.svg)](https://deps.rs/repo/github/florianvazelle/imextras)
 
 This crate provides an SDL3 backend platform and renderer for imgui-rs.
 
@@ -27,7 +26,6 @@ This crate provides an SDL3 backend platform and renderer for imgui-rs.
 
 [![Crates.io](https://img.shields.io/crates/v/imoguizmo.svg)](https://crates.io/crates/imoguizmo)
 [![API Docs](https://docs.rs/imoguizmo/badge.svg)](https://docs.rs/imoguizmo)
-[![dependency status](https://deps.rs/repo/github/florianvazelle/imextras/status.svg)](https://deps.rs/repo/github/florianvazelle/imextras)
 
 This crate integrate an interactive orientation gizmo, based on [ImOGuizmo](https://github.com/fknfilewalker/imoguizmo).
 
@@ -35,7 +33,6 @@ This crate integrate an interactive orientation gizmo, based on [ImOGuizmo](http
 
 [![Crates.io](https://img.shields.io/crates/v/imstyle.svg)](https://crates.io/crates/imstyle)
 [![API Docs](https://docs.rs/imstyle/badge.svg)](https://docs.rs/imstyle)
-[![dependency status](https://deps.rs/repo/github/florianvazelle/imextras/status.svg)](https://deps.rs/repo/github/florianvazelle/imextras)
 
 This crate allows to manage ImGui style with TOML, based on [ImStyle](https://github.com/Patitotective/ImStyle).
 
