@@ -8,7 +8,6 @@ license.workspace = true
 repository.workspace = true
 keywords = ["imgui", "gizmo", "gui"]
 categories = ["gui", "graphics"]
-readme = "README.md"
 
 [dependencies]
 imgui.workspace = true
