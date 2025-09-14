@@ -93,7 +93,7 @@ dependencies = [
 
 [[package]]
 name = "imgui-sdl3"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "imgui",
  "sdl3",
@@ -114,7 +114,7 @@ dependencies = [
 
 [[package]]
 name = "imoguizmo"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "glam",
  "imgui",
@@ -125,7 +125,7 @@ dependencies = [
 
 [[package]]
 name = "imstyle"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "imgui",
  "imgui-sdl3",
@@ -251,8 +251,9 @@ checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 
 [[package]]
 name = "sdl3"
-version = "0.14.42"
-source = "git+https://github.com/vhspace/sdl3-rs?rev=16de0ce#16de0ce9438c0c30999118b5730627d5e56137a6"
+version = "0.15.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "27ecee228c5aaa187c8952d5708aaa8dbd2517ea69349eac4b3ed0ec37e09cdb"
 dependencies = [
  "bitflags 2.9.4",
  "lazy_static",

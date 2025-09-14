@@ -3,17 +3,16 @@ resolver = "2"
 members = ["crates/*"]
 
 [workspace.package]
-version = "0.3.0"
+version = "0.4.0"
 authors = ["florianvazelle"]
 edition = "2024"
 license = "MIT"
 repository = "https://github.com/florianvazelle/imextras"
 
 [workspace.dependencies]
-imgui-sdl3 ={ path = "crates/imgui-sdl3" }
+imgui-sdl3 = { path = "crates/imgui-sdl3" }
 imgui = "0.12.0"
-sdl3 = { git = "https://github.com/vhspace/sdl3-rs", rev = "16de0ce" }
-# sdl3 = "0.14.40"
+sdl3 = "0.15.1"
 shaderc = "0.9.1"
 mint = "0.5.9"
 glam = "0.30.5"
