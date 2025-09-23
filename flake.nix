@@ -50,7 +50,6 @@
 
             # tools
             mdbook just typos cargo-deny taplo
-            llvmPackages_21.clang-tools # clang-format
           ];
           LD_LIBRARY_PATH = "${lib.makeLibraryPath [ sdl3 stdenv.cc.cc ]}";
           RUST_SRC_PATH = rustPlatform.rustLibSrc;

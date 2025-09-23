@@ -8,7 +8,6 @@ lint:
     typos
     cargo deny --all-features check
     taplo check *.toml
-    find crates/imgui-sdl3/shaders/ -iname *.vert -o -iname *.frag -o -iname *.comp -o -iname *.glsl | xargs clang-format --dry-run
 
 fmt:
     cargo fmt
@@ -17,7 +16,6 @@ fmt:
     typos --write-changes
     cargo deny --log-level off check --show-stats
     taplo format *.toml
-    find crates/imgui-sdl3/shaders/ -iname *.vert -o -iname *.frag -o -iname *.comp -o -iname *.glsl | xargs clang-format -i
 
 build:
     cargo build --examples --all-targets --all-features
