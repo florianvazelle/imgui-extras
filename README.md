@@ -16,12 +16,16 @@
 
 This crate integrate an interactive orientation gizmo, based on [ImOGuizmo](https://github.com/fknfilewalker/imoguizmo).
 
+![](./.github/screenshots/imoguizmo.png)
+
 ## [`imstyle`](./crates/imstyle/) 
 
 [![Crates.io](https://img.shields.io/crates/v/imstyle.svg)](https://crates.io/crates/imstyle)
 [![API Docs](https://docs.rs/imstyle/badge.svg)](https://docs.rs/imstyle)
 
 This crate allows to manage ImGui style with TOML, based on [ImStyle](https://github.com/Patitotective/ImStyle).
+
+![](./.github/screenshots/imstyle.png)
 
 ## Development
 
