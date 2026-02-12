@@ -98,7 +98,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "177ba9ec8b30da7de042d21a10c969cdecee39dd417816ad672edd459fb33827"
 dependencies = [
  "imgui",
- "sdl3",
+ "sdl3 0.15.1",
  "shaderc",
 ]
 
@@ -122,7 +122,7 @@ dependencies = [
  "imgui",
  "imgui-sdl3",
  "mint",
- "sdl3",
+ "sdl3 0.16.1",
 ]
 
 [[package]]
@@ -131,7 +131,7 @@ version = "0.4.0"
 dependencies = [
  "imgui",
  "imgui-sdl3",
- "sdl3",
+ "sdl3 0.16.1",
  "serde",
  "toml",
 ]
@@ -256,6 +256,18 @@ name = "sdl3"
 version = "0.15.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "27ecee228c5aaa187c8952d5708aaa8dbd2517ea69349eac4b3ed0ec37e09cdb"
+dependencies = [
+ "bitflags 2.9.4",
+ "lazy_static",
+ "libc",
+ "sdl3-sys",
+]
+
+[[package]]
+name = "sdl3"
+version = "0.16.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a7cff6d303349ec2c47a06fe4668e72ec5338e1ad173974713106bcb873f817c"
 dependencies = [
  "bitflags 2.9.4",
  "lazy_static",
