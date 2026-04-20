@@ -11,7 +11,7 @@ repository = "https://github.com/florianvazelle/imgui-extras"
 
 [workspace.dependencies]
 imgui = "0.12"
-sdl3 = "0.15"
+sdl3 = "0.16"
 shaderc = "0.9"
 mint = "0.5"
 glam = "0.30"
